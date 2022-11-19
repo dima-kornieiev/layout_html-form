@@ -14,12 +14,14 @@
     >
   </head>
   <body>
-    <script type="text/javascript"
+    <script 
+      type="text/javascript"
       src="./main.js"
     >
     </script>
 
-    <form class="form"
+    <form  
+      class="form"
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="POST"
       enctype="multipart/form-data">
@@ -28,7 +30,8 @@
         <div class="form__field">
           <label>
             Surname:
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="text"
               name="surname"
               autocomplete="off"
@@ -38,7 +41,8 @@
         <div class="form__field">
           <label>
             Name:
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="text"
               name="name"
               autocomplete="off"
@@ -48,7 +52,8 @@
         <div class="form__field">
           <label>
             How old are You?
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="number"
               name="age"
               value="12"
@@ -60,7 +65,8 @@
         <div class="form__field">
           <label>
             Full date of birth:
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="date"
               name="BirthDate"
             >
@@ -69,7 +75,8 @@
         <div class="form__field">
           <label>
             I accept the term of the areement
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="checkbox"
               name="terms"
             >
@@ -81,7 +88,8 @@
         <div class="form__field">
           <label>
             E-mail:
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="email"
               name="email"
               placeholder="email@example.com"
@@ -93,7 +101,8 @@
         <div class="form__field">
           <label>
             Password:
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="password"
               name="password"
               required
@@ -107,7 +116,8 @@
         <div class="form__field">
           Do you love cats?
           <label>
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="radio"
               name="cats"
               value="yes"
@@ -115,7 +125,8 @@
             Yes
           </label>
           <label>
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="radio"
               name="cats"
               value="no"
@@ -127,7 +138,8 @@
         <div class="form__field">
           <label>
             What is your favorite color?
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="color"
               name="color"
             >
@@ -136,7 +148,8 @@
         <div class="form__field">
           <label>
             What time do you go to bed?
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="time"
               name="time"
               step="2"
@@ -146,7 +159,8 @@
         <div class="form__field">
           <label>
             What are your favorite brand of cars?
-            <select class="form__select"
+            <select 
+              class="form__select"
               name="car"
               multiple
             >
@@ -159,7 +173,8 @@
         <div class="form__field">
           <label>
             How do you rate our work?
-            <input class="form__input"
+            <input 
+              class="form__input"
               type="range"
               name="rate"
               value="1"
@@ -174,7 +189,8 @@
         <div class="form__field">
           <label>
             Comments:
-            <textarea name="comments"
+            <textarea 
+              name="comments"
               cols="20"
               rows="2"
               minlength="10"
@@ -194,10 +210,6 @@
         </div>
       </fieldset>
       <button type="submit">Submit</button>
-
-
-
-
     </form>
   </body>
 </html>
